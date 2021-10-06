@@ -31,3 +31,8 @@ tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = "com.umeyudai.ExecCircle"
